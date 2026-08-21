@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESLauncher - Yeni Nesil Minecraft Launcher</title>
+
+    <link rel="shortcut icon" href="static/images/icon.ico" type="image/x-icon">
+
+    <!-- Font Awesome İkonları -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animasyon Kütüphanesi -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+    <!-- Navigasyon Barı -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand">
+                <img src="static/images/logo.svg" alt="ESLauncher Logo" class="nav-logo">
+                <span>ESLauncher</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">Özellikler</a></li>
+                <li><a href="#about">Hakkında</a></li>
+                <li><a href="ESLauncher.exe" download class="btn-primary">İndir</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Bölümü -->
+    <header class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <span class="badge">Eskiler Grubu Sunar</span>
+            <h1>Sınırsız Özgürlük, <br><span class="gradient-text">Maksimum Performans</span></h1>
+            <p>Tüm mod istemcilerini destekleyen, akıcı arayüzlü ve gelişmiş Java optimizasyonlu yeni nesil launcher.</p>
+            <div class="hero-buttons">
+                <a href="ESLauncher.exe" download class="btn-hero"><i class="fa-solid fa-download"></i> Hemen İndir</a>
+                <a href="#features" class="btn-secondary"><i class="fa-solid fa-circle-info"></i> Keşfet</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Özellikler Bölümü -->
+    <section id="features" class="features">
+        <h2 class="section-title" data-aos="fade-up">Neden <span class="gradient-text">ESLauncher</span>?</h2>
+        
+        <div class="features-grid">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon-box"><i class="fa-solid fa-cubes"></i></div>
+                <h3>Tüm Mod İstemcileri</h3>
+                <p>Forge, Fabric, Quilt, NeoForge veya Vanilla... İstediğin her türlü mod paketini tek tıkla çalıştır.</p>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box"><i class="fa-solid fa-microchip"></i></div>
+                <h3>32 GB RAM Desteği</h3>
+                <p>Ağır mod paketleri için 32 GB'a kadar esnek RAM ayarı. Donma ve takılmalara son verin.</p>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box"><i class="fa-solid fa-sliders"></i></div>
+                <h3>Gelişmiş Java Parametreleri</h3>
+                <p>Hazır ince ayar (JVM Flags) metinleri ile oyun içi FPS değerlerinizi ve kararlılığı tavan yaptırın.</p>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box"><i class="fa-solid fa-folder-gear"></i></div>
+                <h3>Custom Java (.exe) Bağlama</h3>
+                <p>Sistemindeki dilediğin Java sürümünün veya özel optimize `.exe` dosyasının yolunu doğrudan bağla.</p>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                <h3>Akıcı ve Hafif Arayüz</h3>
+                <p>Göz yormayan modern tasarım, düşük kaynak tüketimi ve yüksek yanıt hızı ile tasarlandı.</p>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+                <h3>Eskiler Güvencesi</h3>
+                <p>Eskiler Grubu topluluğu tarafından sürekli güncellenen ve desteklenen kararlı yapı.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- İndirme Bölümü -->
+    <section id="download" class="download-section" data-aos="zoom-in">
+        <div class="download-box">
+            <h2>Maceraya Başlamaya Hazır Mısın?</h2>
+            <p>Windows için en güncel ESLauncher sürümünü indir.</p>
+            <a href="ESLauncher.exe" download class="btn-download"><i class="fa-brands fa-windows"></i> ESLauncher'ı İndir (.exe)</a>
+            <small>Sürüm v1.0.0 | Windows 10/11 Uyumlu</small>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="about">
+        <p>&copy; 2026 ESLauncher. Tüm hakları saklıdır.</p>
+        <p>Geliştirici: <strong>Eskiler Grubu</strong></p>
+    </footer>
+
+    <!-- JS Kütüphaneleri -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+</body>
+</html>
